@@ -21,6 +21,7 @@ function App() {
       .then(data => setPrices(data));
   }, []);
 
+  
   return (
     <div className="container">
       <h1>React App</h1>
